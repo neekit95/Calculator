@@ -28,6 +28,7 @@ body {
 }
 
 .result {
+    /* maxlent 15; */
     display:flex ;
     background-color: rgb(239, 239, 239);
     border-radius:3px;
@@ -36,8 +37,9 @@ body {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 0px;
-     white-space: nowrap; /* Отменяем перенос текста */
+    white-space: nowrap; /* Отменяем перенос текста */
     overflow: hidden; 
+    /* text-overflow: ellipsis; */
     /* padding-bottom: 0; */
     /* padding-left: 30px; */
     /* border-left: 20px; */
